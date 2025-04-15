@@ -41,4 +41,8 @@ body {
     margin: 0;
   }
 }
+# GitHub Pages specific
+remote_theme: pages-themes/minima@v2.5.0
+plugins:
+  - jekyll-remote-theme
 
