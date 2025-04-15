@@ -1,0 +1,44 @@
+---
+---
+
+// Import variables
+@import "base/variables";
+
+// Import components
+@import "components/buttons";
+@import "components/cards";
+@import "components/navigation";
+
+// Base styles
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: $color-dark;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Utility classes
+.text-primary {
+  color: $color-primary;
+}
+
+.bg-dark {
+  background-color: $color-dark;
+  color: white;
+.highlight {
+  background: #f8f8f8;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+
+  pre {
+    margin: 0;
+  }
+}
+
