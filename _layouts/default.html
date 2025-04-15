@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {%- include head.html -%}
+  <body class="bg-light">
+    {%- include header.html -%}
+
+    <main class="container py-5" aria-label="Content">
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+    {%- include scripts.html -%}
+  </body>
+</html>
